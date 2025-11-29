@@ -1,0 +1,49 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg-info/
+dist/
+build/
+
+# Model checkpoints (too large for git - users should download separately)
+models/*.ckpt
+models/*.pt
+models/*.t7
+models/*.pth
+
+# Output files
+outputs/
+*.mp4
+*.avi
+*.mov
+*.png
+*.jpg
+*.jpeg
+
+# Input files (user's data)
+inputs/
+
+# OS files
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*~
+
+# IDE
+.vscode/
+.idea/
+*.iml
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Environment
+venv/
+env/
+ENV/
+.venv
+
