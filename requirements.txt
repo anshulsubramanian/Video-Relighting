@@ -1,0 +1,24 @@
+# Core dependencies
+numpy>=1.19.0
+Pillow>=8.0.0
+opencv-python>=4.5.0
+tqdm>=4.60.0
+
+# PyTorch (install based on your CUDA version)
+# For CUDA 11.8:
+# torch>=2.0.0
+# torchvision>=0.15.0
+# For CPU only:
+# torch>=2.0.0+cpu
+# torchvision>=0.15.0+cpu
+
+# Install PyTorch from: https://pytorch.org/get-started/locally/
+# Example for CUDA 11.8:
+# pip install torch torchvision --index-url https://download.pytorch.org/whl/cu118
+
+# DSINE dependencies
+geffnet>=0.1.0
+
+# Optional: segmentation_models_pytorch (if needed for some models)
+# segmentation-models-pytorch>=0.3.0
+
